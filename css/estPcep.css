@@ -1,0 +1,55 @@
+:root{
+    --verdeF: #94d1a1;
+    --verde: #155c00;
+    --amarelo: #ffde59;
+}
+body{
+    background-color: var(--verdeF);
+}
+navbar{
+    background-color: var(--verde);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+navbar .navImgLogo{
+    width: auto;
+    height: 80%;
+    margin: auto;
+}
+.fun{
+    position: absolute;
+    background-color: white;
+    top: 15%;
+    left: 5%;
+    width: 90%;
+    height: auto;
+    border-radius: 2%;
+    display:block;
+}
+.fun .cepArea{
+    height: 10%;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.fun .cepInfos{
+    text-align: center;
+    height: 90%;
+    width: 100%;
+}
+.fun .cepInfos .itemImg{
+    display:inline-flexbox;
+    margin: auto;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+}
+.fun .cepInfos .itemImg .item{
+    max-height: 100%;
+}

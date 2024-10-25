@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estPcep.css">
+    <script src="jst/pCepS.js"></script>
+    <title>Pcep</title>
+</head>
+<body>
+    <navbar>
+        <img src="imgs/logoPcepSf.png" alt="" srcset="" class="navImgLogo">
+    </navbar>
+    <div class="fun">
+        <div class="cepArea">
+            <p>Digite o CEP:</p>
+            <input type="text" id="cep">
+            <button onclick="pega()" id="btnBusca">Buscar</button>
+        </div>
+        <div class="cepInfos">
+            <div>
+                <p id="cidade"></p>
+                <p id="bairro"></p>
+                <p id="logradouro"></p>
+                <p id="complementoL"><p id="complemento"></p>
+                <p id="ddd"></p>
+            </div>
+            <div class="itemImg">
+                <div class="item">
+                    <p>Bandeira do estado:</p>
+                    <img src="" id="bandEstado" alt="">
+                </div>
+                <div class="item">
+                    <p>Estado:</p>
+                    <img src="" id="imgEstado" alt="">
+                </div>
+                <div class="item">
+                    <p>Município:</p>
+                    <img src="" id="imgMunicipio" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
